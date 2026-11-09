@@ -1,0 +1,12 @@
+[
+  "tests/test_app.py::test_extract_reports_missing_api_key",
+  "tests/test_app.py::test_extract_requires_message",
+  "tests/test_app.py::test_extract_returns_findings_and_escalates_for_yes",
+  "tests/test_app.py::test_invalid_or_unsupported_llm_output_is_rejected[{\"findings\":[{\"sign_id\":\"made_up\",\"value\":\"yes\",\"quote\":\"sick\"}]}]",
+  "tests/test_app.py::test_invalid_or_unsupported_llm_output_is_rejected[{\"findings\":[{\"sign_id\":\"ticks\",\"value\":\"maybe\",\"quote\":\"ticks\"}]}]",
+  "tests/test_app.py::test_invalid_or_unsupported_llm_output_is_rejected[{\"findings\":[{\"sign_id\":\"ticks\",\"value\":\"yes\",\"quote\":\"not in message\"}]}]",
+  "tests/test_app.py::test_invalid_or_unsupported_llm_output_is_rejected[{\"findings\":[{\"sign_id\":\"ticks\",\"value\":\"yes\",\"quote\":\"ticks\"},{\"sign_id\":\"ticks\",\"value\":\"no\",\"quote\":\"no ticks\"}]}]",
+  "tests/test_app.py::test_llm_output_is_validated_and_only_returns_supported_quotes",
+  "tests/test_app.py::test_non_escalation_signs_do_not_escalate",
+  "tests/test_app.py::test_uncertain_escalation_sign_triggers_but_negative_does_not"
+]
